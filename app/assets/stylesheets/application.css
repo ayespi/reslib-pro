@@ -18,18 +18,11 @@
  @import url("welcome.css");
  @import url("bootstrap.css");
 
- body {
-   padding-top: 50px;
- }
- .starter-template {
-   padding: 40px 15px;
-   text-align: center;
- }
-
  .jumbotron-banner{
-   background: url('bkgd.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
+   color:#ffffff;
+   padding:40px 40px 90px 40px;
+ }
+ .jumbotron-banner2{
    color:#ffffff;
    padding:40px 40px 90px 40px;
  }
