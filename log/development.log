@@ -13655,3 +13655,21 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/bkgd.jpg" for ::1 at 2016-07-02 21:39:19 -0400
+
+
+Started GET "/" for ::1 at 2016-07-02 22:16:12 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 363ms (Views: 353.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for ::1 at 2016-07-02 22:16:13 -0400
+
+
+Started GET "/assets/welcome.css" for ::1 at 2016-07-02 22:16:13 -0400
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2016-07-02 22:16:13 -0400
+
+
+Started GET "/assets/bkgd.jpg" for ::1 at 2016-07-02 22:16:13 -0400
