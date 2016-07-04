@@ -18843,3 +18843,219 @@ Started GET "/assets/feature3300x142.jpg" for ::1 at 2016-07-03 21:58:18 -0400
 
 
 Started GET "/assets/bkgd2.jpg" for ::1 at 2016-07-03 21:58:18 -0400
+
+
+Started GET "/" for ::1 at 2016-07-03 22:07:07 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 189ms (Views: 188.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-glyphicons.self-d9dd53a29a2b842183817830d8e7ee6a68c8aa19e2b229677a6f397c6b7f589d.css?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/application.self-e2b57814481ab1644c78ed0a003069c177defc9ad23dbabde1bb4ed8f5c1bfca.css?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/books.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/welcome.self-7dc7b35a259f45d9b997463f132320013454c48a9a887a4b6e6b9694f272e5d7.css?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/application.css" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/welcome.css" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/feature1a300x142-18c4d656690363369cbfdf770dadbad63b2521748f3cf36a72fc09d52b926dd4.jpg" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/feature2a300x142.jpg" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/feature3300x142.jpg" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/bkgd2.jpg" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/assets/logo147x45-ea49ed837f08ca2cd17ab49ab60f6948af5508afb79052c8a776600f0086d856.png" for ::1 at 2016-07-03 22:07:07 -0400
+
+
+Started GET "/" for ::1 at 2016-07-03 22:07:58 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/books.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/welcome.self-7dc7b35a259f45d9b997463f132320013454c48a9a887a4b6e6b9694f272e5d7.css?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/bootstrap-glyphicons.self-d9dd53a29a2b842183817830d8e7ee6a68c8aa19e2b229677a6f397c6b7f589d.css?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/application.self-e2b57814481ab1644c78ed0a003069c177defc9ad23dbabde1bb4ed8f5c1bfca.css?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/application.css" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/welcome.css" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/logo147x45-ea49ed837f08ca2cd17ab49ab60f6948af5508afb79052c8a776600f0086d856.png" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/feature1a300x142-18c4d656690363369cbfdf770dadbad63b2521748f3cf36a72fc09d52b926dd4.jpg" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/feature2a300x142.jpg" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/feature3300x142.jpg" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/assets/bkgd2.jpg" for ::1 at 2016-07-03 22:07:58 -0400
+
+
+Started GET "/" for ::1 at 2016-07-03 22:09:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-03 22:09:04 -0400
+
+
+Started GET "/assets/bootstrap-glyphicons.self-d9dd53a29a2b842183817830d8e7ee6a68c8aa19e2b229677a6f397c6b7f589d.css?body=1" for ::1 at 2016-07-03 22:09:04 -0400
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-03 22:09:04 -0400
+
+
+Started GET "/assets/application.self-e2b57814481ab1644c78ed0a003069c177defc9ad23dbabde1bb4ed8f5c1bfca.css?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/welcome.self-7dc7b35a259f45d9b997463f132320013454c48a9a887a4b6e6b9694f272e5d7.css?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/application.css" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/welcome.css" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/logo147x45-ea49ed837f08ca2cd17ab49ab60f6948af5508afb79052c8a776600f0086d856.png" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/feature1a300x142-18c4d656690363369cbfdf770dadbad63b2521748f3cf36a72fc09d52b926dd4.jpg" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/feature2a300x142-3be81beda233ba85d420f602e1b83ce413613fb1269e18b920922b1e749e5028.jpg" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/feature3300x142-61536fb9a104eea427671e227fcf709f61ea4a873650129f546ad49c854225ea.jpg" for ::1 at 2016-07-03 22:09:05 -0400
+
+
+Started GET "/assets/bkgd2.jpg" for ::1 at 2016-07-03 22:09:05 -0400
