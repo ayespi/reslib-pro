@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'videos/index'
+
+  get 'albums/index'
+
   get 'books/index'
 
   get 'about/index'
