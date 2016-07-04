@@ -21334,3 +21334,462 @@ Started GET "/videos/index" for ::1 at 2016-07-03 23:53:57 -0400
 Processing by VideosController#index as HTML
   Rendered videos/index.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:22:52 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (58.7ms)
+Completed 200 OK in 453ms (Views: 452.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for ::1 at 2016-07-04 00:22:57 -0400
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/index" for ::1 at 2016-07-04 00:22:59 -0400
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/index" for ::1 at 2016-07-04 00:23:01 -0400
+Processing by AlbumsController#index as HTML
+  Rendered albums/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/index" for ::1 at 2016-07-04 00:23:03 -0400
+Processing by VideosController#index as HTML
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:25:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (48.6ms)
+Completed 200 OK in 158ms (Views: 157.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:28:25 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 258ms (Views: 257.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/albums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/videos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/bootstrap-glyphicons.self-d9dd53a29a2b842183817830d8e7ee6a68c8aa19e2b229677a6f397c6b7f589d.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/welcome.self-c90fccf9c3c9ad2fde8591dfb19256fa4b0021838fc2e05fde876851b10cb06c.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/application.self-1c554ca8b53d21e50c4b86ec2ca55363f31f54728750f37190ed15760bc8d7ae.css?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/albums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/application.css" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/welcome.css" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/videos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/logo147x45-ea49ed837f08ca2cd17ab49ab60f6948af5508afb79052c8a776600f0086d856.png" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/feature3300x142-61536fb9a104eea427671e227fcf709f61ea4a873650129f546ad49c854225ea.jpg" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/feature1a300x142-18c4d656690363369cbfdf770dadbad63b2521748f3cf36a72fc09d52b926dd4.jpg" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/feature2a300x142-3be81beda233ba85d420f602e1b83ce413613fb1269e18b920922b1e749e5028.jpg" for ::1 at 2016-07-04 00:28:25 -0400
+
+
+Started GET "/assets/bkgd2-2577c756ab7ec82a1d4fb0aad947828e22616c948df2fa1f0700c0d4be4fead2.jpg" for ::1 at 2016-07-04 00:28:26 -0400
+
+
+Started GET "/" for ::1 at 2016-07-04 00:28:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:28:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 94ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:28:37 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:29:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 121ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/albums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/books.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/bootstrap-glyphicons.self-d9dd53a29a2b842183817830d8e7ee6a68c8aa19e2b229677a6f397c6b7f589d.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/videos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/welcome.self-c90fccf9c3c9ad2fde8591dfb19256fa4b0021838fc2e05fde876851b10cb06c.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/application.self-1c554ca8b53d21e50c4b86ec2ca55363f31f54728750f37190ed15760bc8d7ae.css?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/albums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/application.css" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/welcome.css" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/videos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/logo147x45-ea49ed837f08ca2cd17ab49ab60f6948af5508afb79052c8a776600f0086d856.png" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/feature1a300x142-18c4d656690363369cbfdf770dadbad63b2521748f3cf36a72fc09d52b926dd4.jpg" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/feature3300x142-61536fb9a104eea427671e227fcf709f61ea4a873650129f546ad49c854225ea.jpg" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/feature2a300x142-3be81beda233ba85d420f602e1b83ce413613fb1269e18b920922b1e749e5028.jpg" for ::1 at 2016-07-04 00:29:51 -0400
+
+
+Started GET "/assets/bkgd2-2577c756ab7ec82a1d4fb0aad947828e22616c948df2fa1f0700c0d4be4fead2.jpg" for ::1 at 2016-07-04 00:29:52 -0400
+
+
+Started GET "/about/index" for ::1 at 2016-07-04 00:29:54 -0400
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/index" for ::1 at 2016-07-04 00:29:55 -0400
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/index" for ::1 at 2016-07-04 00:29:56 -0400
+Processing by AlbumsController#index as HTML
+  Rendered albums/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/index" for ::1 at 2016-07-04 00:29:57 -0400
+Processing by VideosController#index as HTML
+  Rendered videos/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:30:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/index" for ::1 at 2016-07-04 00:30:01 -0400
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 875ms (Views: 874.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:30:03 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/index" for ::1 at 2016-07-04 00:30:04 -0400
+Processing by AlbumsController#index as HTML
+  Rendered albums/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:30:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/index" for ::1 at 2016-07-04 00:30:07 -0400
+Processing by VideosController#index as HTML
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:30:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for ::1 at 2016-07-04 00:31:06 -0400
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/index" for ::1 at 2016-07-04 00:31:15 -0400
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/index" for ::1 at 2016-07-04 00:31:19 -0400
+Processing by AlbumsController#index as HTML
+  Rendered albums/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/index" for ::1 at 2016-07-04 00:31:24 -0400
+Processing by VideosController#index as HTML
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:31:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 00:31:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (5.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'authors'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (4.1ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'books'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (5.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'authors'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'books'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (29.0ms)[0m  BEGIN
+  [1m[36mSQL (111.4ms)[0m  [1mINSERT INTO "books" ("title", "subtitle", "author", "isbn_13", "isbn_10", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "Handcrafted CSS"], ["subtitle", "More Bulletproof Web Design"], ["author", "Dan Cedarholm"], ["isbn_13", "9780321643384"], ["isbn_10", "0321643380"], ["created_at", "2016-07-04 12:08:35.195301"], ["updated_at", "2016-07-04 12:08:35.195301"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "books" ("title", "subtitle", "author", "isbn_13", "isbn_10", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["title", "Stylin With CSS"], ["subtitle", "A Designer's Guide - Third Edition"], ["author", "Charles Wyke-Smith"], ["isbn_13", "9780321858474"], ["isbn_10", "0321858476"], ["created_at", "2016-07-04 12:08:35.398557"], ["updated_at", "2016-07-04 12:08:35.398557"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "books" ("title", "subtitle", "author", "isbn_13", "isbn_10", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "JavaScript"], ["subtitle", "Create Functions For The Web"], ["author", "Mike McGrath"], ["isbn_13", "9781840785708"], ["isbn_10", ""], ["created_at", "2016-07-04 12:08:35.401009"], ["updated_at", "2016-07-04 12:08:35.401009"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "authors" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Dan Cederholm"], ["created_at", "2016-07-04 12:08:35.410147"], ["updated_at", "2016-07-04 12:08:35.410147"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "authors" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Charles Wyke-Smith"], ["created_at", "2016-07-04 12:08:35.413511"], ["updated_at", "2016-07-04 12:08:35.413511"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "authors" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Mike McGrath"], ["created_at", "2016-07-04 12:08:35.415435"], ["updated_at", "2016-07-04 12:08:35.415435"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[36mBook Load (1.7ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT "authors".* FROM "authors"
+
+
+Started GET "/albums/index" for ::1 at 2016-07-04 09:14:58 -0400
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by AlbumsController#index as HTML
+  Rendered albums/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 09:15:01 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/index" for ::1 at 2016-07-04 09:15:04 -0400
+Processing by VideosController#index as HTML
+  Rendered videos/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 09:15:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/index" for ::1 at 2016-07-04 09:23:21 -0400
+Processing by BooksController#index as HTML
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 318ms (Views: 315.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 09:23:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (53.2ms)
+Completed 200 OK in 119ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/albums/index" for ::1 at 2016-07-04 09:23:32 -0400
+Processing by AlbumsController#index as HTML
+  Rendered albums/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 09:23:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/videos/index" for ::1 at 2016-07-04 09:23:51 -0400
+Processing by VideosController#index as HTML
+  Rendered videos/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-04 09:24:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms)
