@@ -16,12 +16,16 @@ class BooksController < ApplicationController
   end
 
   def update
-    # @book =
+
   end
 
   def create
-    # @book =
+    @book = Book.new(book_params)
+    @book.save
+    redirect_to @book
   end
-private
-
+  private
+    def book_params
+      params.require(:book).permit(:title, :text)
+    end
 end
