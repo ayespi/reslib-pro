@@ -1,0 +1,14 @@
+User Stories
+- User will visit welcome page to access site
+- User will be able to Create a resource library
+- User will be able to Add contents to the resource library
+- User will be able to Read the contents of the resource library
+- User will be able to Update the contents of the resource library
+- User will be able to Delete all/part of the contents of the resource library
+- User will be able to choose the type of resource library
+- User will begin with book resource library [BRONZE]
+- User will potentially be able to have audio and/or video resources added later
+- User will be able to login to access resource library
+- User Guests will be able be extended view-only privileges
+- Registered users will be able to add new titles to resource library
+- Admin user will be able to have full CRUD capabilities
