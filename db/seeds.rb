@@ -13,20 +13,17 @@
 # jack = Student.create(first_name: "Jack", last_name: "Adams", age: 67, job: "Lawyer", instructor: jesse)
 # # andy = Student.create(first_name: "Andy", last_name: "Jackson", age: 55, job: "Banker", instructor: jesse)
 # # ted = Student.create(first_name: "Ted", last_name: "Roosevelt", age: 55, job: "Hunter", instructor: adrian)
-# t.string :title
-# t.string :subtitle
-# t.string :author
-# t.string :img_url
-# t.string :isbn_13
-# t.string :isbn_10
+Book.destroy_all
+Author.destroy_all
 
-  books = Book.create([
+  cederholm = Author.create(name: 'Dan Cederholm')
+  wyke_smith = Author.create(name: 'Charles Wyke-Smith')
+  mcgrath = Author.create(name: 'Mike McGrath')
 
-    { title: 'Handcrafted CSS',  subtitle: 'More Bulletproof Web Design', author: 'Dan Cedarholm', isbn_13: '9780321643384', isbn_10: '0321643380'},
-    { title: 'Stylin With CSS',  subtitle: 'A Designer\'s Guide - Third Edition', author: 'Charles Wyke-Smith', isbn_13: '9780321858474', isbn_10: '0321858476'},
-    { title: 'JavaScript',  subtitle: 'Create Functions For The Web', author: 'Mike McGrath', isbn_13: '9781840785708', isbn_10: ''}
+  Book.create([
+
+    { title: 'Handcrafted CSS',  subtitle: 'More Bulletproof Web Design', img_url: 'handcrafted-css.jpg', isbn_13: '9780321643384', isbn_10: '0321643380', author: cederholm},
+    { title: 'Stylin\' With CSS',  subtitle: 'A Designer\'s Guide - Third Edition', img_url: 'stylin-with-css.jpg', isbn_13: '9780321858474', isbn_10: '0321858476', author: wyke_smith},
+    { title: 'JavaScript',  subtitle: 'Create Functions For The Web', img_url: 'javascript-create-functions-for-the-web.jpg', isbn_13: '9781840785708', isbn_10: '', author: mcgrath}
 
                         ])
-  Author.create(name: 'Dan Cederholm')
-  Author.create(name: 'Charles Wyke-Smith')
-  Author.create(name: 'Mike McGrath')

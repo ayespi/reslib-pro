@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20160703035404) do
   enable_extension "plpgsql"
 
   create_table "authors", force: :cascade do |t|
-    t.string   "name"
+    t.string   "name",       null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -25,10 +25,10 @@ ActiveRecord::Schema.define(version: 20160703035404) do
   create_table "books", force: :cascade do |t|
     t.string   "title"
     t.string   "subtitle"
-    t.string   "author"
     t.string   "img_url"
     t.string   "isbn_13"
     t.string   "isbn_10"
+    t.integer  "author_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
