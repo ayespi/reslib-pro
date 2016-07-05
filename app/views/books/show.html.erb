@@ -1,0 +1,18 @@
+<div class="container" >
+  <div id="show-book-wrapper">
+    <div id="book-img-div">
+      <strong><span class="span-title"><%= @book.title %></span> : <span class="span-subtitle"><%= @book.subtitle %></span></strong>
+      <%= image_tag(@book.img_url) %>
+    </div>
+
+      <p>
+        <strong>Author:</strong>
+        <%= @book.author.name %>
+      </p>
+
+      <p>
+        <strong>ISBN-13: </strong> <%= @book.isbn_13 %> | <strong>ISBN-10: </strong> <%= @book.isbn_10 %>
+      </p>
+      <%= link_to '<< Back to list', books_path, :class => "btn btn-primary btn-sm" %>
+  </div>
+</div>

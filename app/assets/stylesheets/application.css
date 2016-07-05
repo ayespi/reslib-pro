@@ -18,6 +18,9 @@
  @import url("welcome.css");
  @import url("bootstrap.css");
 
+#top-nav{height:60px; line-height:60px;}
+#navbar{float:right; font-size: 16px;}
+
  .jumbotron-banner{
    color:#ffffff;
    padding:40px 40px 90px 40px;
@@ -46,3 +49,10 @@
  #logo-div img{ margin:5px 0px;}
 
  input{color:#000000;}
+
+ /************************ Book Show ********************** */
+.span-title{font-size: 20px;}
+.span-subtitle{font-style: italic;}
+#show-book-wrapper{width:35%; margin:0px auto;}
+#book-img-div{ padding-top:30px;}
+#book-img-div img{width:300px; height:auto; margin:15px 20px 30px 20px;}
