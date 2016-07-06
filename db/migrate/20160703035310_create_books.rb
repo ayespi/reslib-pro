@@ -6,7 +6,7 @@ class CreateBooks < ActiveRecord::Migration
       t.string :img_url
       t.string :isbn_13
       t.string :isbn_10
-      t.integer :author_id
+      t.references :author
 
       t.timestamps null: false
     end

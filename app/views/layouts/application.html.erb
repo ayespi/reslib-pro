@@ -25,10 +25,10 @@
         <ul class="nav navbar-nav">
           <li><a href="/"></a></li>
           <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "About", about_index_path %></li>
-          <li><%= link_to "Books", books_path %></li>
-          <li><%= link_to "Albums", albums_index_path %></li>
-          <li><%= link_to "Videos", videos_index_path %></li>
+          <li><%= link_to "About", @about %></li>
+          <li><%= link_to "Books", @books %></li>
+          <li><%= link_to "Albums", @albums %></li>
+          <li><%= link_to "Videos", @videos %></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#admin">Admin</a></li>
         </ul>
@@ -39,10 +39,11 @@
     <%= yield %>
 
 
-<div class="container">
-  <footer>
-    <p>&copy; 2016 ResLib.net</p>
-  </footer>
-</div>
+  <div class="container">
+    <hr>
+    <footer>
+      <p>&copy; 2016 ResLib.net</p>
+    </footer>
+  </div>
 </body>
 </html>
