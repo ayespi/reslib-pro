@@ -1,6 +1,7 @@
 class BooksController < ApplicationController
   def index
-    @author = Author.find(params[:author_id])
+    # author_books_path GET    /authors/:author_id/books(.:format)          books#index
+    @authors = Author.all
     @books  = Book.all
   end
 
@@ -9,7 +10,7 @@ class BooksController < ApplicationController
   end
 
   def edit
-    @book = Book.new(book_params)
+    @book = Book.find(params[:id])
   end
 
   def new
@@ -17,7 +18,9 @@ class BooksController < ApplicationController
   end
 
   def update
-    @book = Book.find(book_params)
+    @book = Book.find(params[:id])
+    @book.update(book_params)
+    redirect_to @book
   end
 
   def create
@@ -26,6 +29,12 @@ class BooksController < ApplicationController
 
     # @book = .save
     redirect_to @book
+  end
+
+  def destroy
+    @book = Book.find(params[:id])
+    @book.destroy
+    redirect_to @book, :notice => "Your book has been deleted!!!"
   end
   private
     def book_params

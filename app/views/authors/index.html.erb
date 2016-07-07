@@ -1,1 +1,37 @@
-<h1>Author's Index</h1>
+ <!-- Main jumbotron for a primary marketing message or call to action -->
+ <div class="jumbotron jumbotron-banner">
+   <div class="container">
+    <h1>Resource Library Network</h1>
+     <!-- <p>This is a template for a simple marketing or informational website.
+       It includes a large callout called a jumbotron and three supporting pieces of
+       content. Use it as a starting point to create something more unique.</p>
+     <p><%= link_to "Learn more", root_path, :class => "btn btn-primary btn-lg" %></p> -->
+   </div>
+ </div>
+ <div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <%= link_to image_tag("feature1a300x142.jpg"), books_path, :class => "logo-brand" %>
+      <h2>Books</h2>
+      <p>Looking for a particular book??? The book you are looking for may be just a click away...
+        To view our vast list of book titles by clicking the button below...</p>
+      <p><%= link_to "View book list", books_path, :class => "btn btn-primary" %></p>
+    </div>
+    <div class="col-md-4">
+      <%= link_to image_tag("feature2a300x142.jpg"), @albums, :class => "logo-brand" %>
+      <h2>Music</h2>
+      <p>Looking for a particular album??? The album you are looking for may be just a click away...
+        To view our vast list of album titles by clicking the button below...</p>
+        <p><%= link_to "View music list", @albums, :class => "btn btn-primary" %></p>
+   </div>
+    <div class="col-md-4">
+      <%= link_to image_tag("feature3300x142.jpg"), @videos, :class => "logo-brand" %>
+      <h2>Videos</h2>
+      <p>Looking for a particular video??? The video you are looking for may be just a click away...
+        To view our vast list of video titles by clicking the button below...</p>
+      <p><%= link_to "View video list", @videos, :class => "btn btn-primary" %></p>
+    </div>
+  </div>
+
+</div> <!-- /container -->

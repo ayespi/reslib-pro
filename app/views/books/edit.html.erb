@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Edit Book</h1>
+  <%= form_for @book do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :subtitle %><br>
+    <%= f.text_field :subtitle %>
+  </p>
+  <p>
+    <%= f.label :img_url %><br>
+    <%= f.text_field :img_url %>
+  </p>
+  <p>
+    <%= f.label :isbn_13 %><br>
+    <%= f.text_field :isbn_13 %>
+  </p>
+  <p>
+    <%= f.label :isbn_10 %><br>
+    <%= f.text_field :isbn_10 %>
+  </p>
+  <p>
+    <%= f.label :author_id %><br>
+    <%= f.text_field :author_id %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+  <% end %>
+  <%= link_to '<< Back', books_path, :class => "btn btn-primary" %>
+</div>
