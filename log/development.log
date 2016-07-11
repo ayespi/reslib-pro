@@ -59052,3 +59052,21 @@ Started GET "/assets/application.css" for ::1 at 2016-07-09 18:32:29 -0400
 
 
 Started GET "/assets/bootstrap.css" for ::1 at 2016-07-09 18:32:29 -0400
+
+
+Started GET "/books/18" for ::1 at 2016-07-09 20:39:14 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mBook Load (0.3ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mAuthor Load (0.3ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", 26]]
+  Rendered books/show.html.erb within layouts/application (49.2ms)
+Completed 200 OK in 479ms (Views: 476.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css" for ::1 at 2016-07-09 20:39:15 -0400
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2016-07-09 20:39:15 -0400
+
+
+Started GET "/assets/welcome.css" for ::1 at 2016-07-09 20:39:15 -0400
